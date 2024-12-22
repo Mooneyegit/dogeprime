@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Mooneyegit/dogeprime/static/css/main.f387b671.css",
+    "main.js": "/Mooneyegit/dogeprime/static/js/main.a9e55a62.js",
+    "static/js/488.b07bd04c.chunk.js": "/Mooneyegit/dogeprime/static/js/488.b07bd04c.chunk.js",
+    "static/media/dogoprimeface.png": "/Mooneyegit/dogeprime/static/media/dogoprimeface.0bdb672538d37d31380a.png",
+    "static/media/banner-bg(3).png": "/Mooneyegit/dogeprime/static/media/banner-bg(3).cc1273af450504afe755.png",
+    "static/media/footer-bg.png": "/Mooneyegit/dogeprime/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/twitter.png": "/Mooneyegit/dogeprime/static/media/twitter.7e40f617aaa8eca864bb.png",
+    "static/media/kid.ttf": "/Mooneyegit/dogeprime/static/media/kid.f8324fdad6eda13d12aa.ttf",
+    "static/media/telegram.png": "/Mooneyegit/dogeprime/static/media/telegram.6ea7b05c265797c650e5.png",
+    "static/media/medium.png": "/Mooneyegit/dogeprime/static/media/medium.cb775e205316a302bf07.png",
+    "index.html": "/Mooneyegit/dogeprime/index.html",
+    "main.f387b671.css.map": "/Mooneyegit/dogeprime/static/css/main.f387b671.css.map",
+    "main.a9e55a62.js.map": "/Mooneyegit/dogeprime/static/js/main.a9e55a62.js.map",
+    "488.b07bd04c.chunk.js.map": "/Mooneyegit/dogeprime/static/js/488.b07bd04c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f387b671.css",
+    "static/js/main.a9e55a62.js"
+  ]
+}
