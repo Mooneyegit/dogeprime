@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from "react"; 
 import { FaRegCopy } from "react-icons/fa6";
+import { IoCheckmarkDoneSharp } from "react-icons/io5";
 
 
 
@@ -50,7 +51,7 @@ export const Download = () => {
 	</div>
 	<div className="copy-text">
 		<input type="text" className="text" value="addr1qy3shp4u5dr0vvukf2tpc4n3s4dy505" />
-		<button onClick={copy}><FaRegCopy />{copied && 'Copied!'}</button>
+		<button onClick={copy}><FaRegCopy /> click to copy{copied && <IoCheckmarkDoneSharp />}</button>
 	</div>
 </div>
         </>

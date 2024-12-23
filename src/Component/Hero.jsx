@@ -20,7 +20,7 @@ const Hero = () => {
    
   }
   return (
-    <div className='hero-container banner'>
+    <div className='hero-container'>
       <div className='left'>
         <h1 className='title'>$Dogeprime </h1>
         <div className='whatwedo'>
