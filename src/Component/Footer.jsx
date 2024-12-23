@@ -17,9 +17,9 @@ import logo from '../assert/Images/dogoprimeface.png'
             </Col>
             <Col size={12} sm={6} className="text-center text-sm-end">
               <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="image" /></a>
-                <a href="#"><img src={navIcon2} alt="navphoto" /></a>
-                <a href="#"><img src={navIcon3} alt="navimage" /></a>
+                <a href="https://x.com/dogeprime_"><img src={navIcon1} alt="image" /></a>
+                <a href="https://t.me/Dogeprime_ENG"><img src={navIcon2} alt="navphoto" /></a>
+                <a href="https://medium.com/@Dogeprime "><img src={navIcon3} alt="navimage" /></a>
               </div>
               <p>Copyright 2024. All Rights Reserved</p>
             </Col>
