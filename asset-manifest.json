@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/dogeprime/static/css/main.e5dfcaaf.css",
-    "main.js": "/dogeprime/static/js/main.13cc5638.js",
+    "main.css": "/dogeprime/static/css/main.91a92ac4.css",
+    "main.js": "/dogeprime/static/js/main.7265a048.js",
     "static/js/488.b07bd04c.chunk.js": "/dogeprime/static/js/488.b07bd04c.chunk.js",
     "static/media/dogoprimeface.png": "/dogeprime/static/media/dogoprimeface.0bdb672538d37d31380a.png",
+    "static/media/vecteezy_green-grass-on-grid-background_-removebg-preview.png": "/dogeprime/static/media/vecteezy_green-grass-on-grid-background_-removebg-preview.eb87ba99ce568dc7dbba.png",
     "static/media/banner-bg(3).png": "/dogeprime/static/media/banner-bg(3).cc1273af450504afe755.png",
     "static/media/footer-bg.png": "/dogeprime/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/twitter.png": "/dogeprime/static/media/twitter.7e40f617aaa8eca864bb.png",
@@ -11,12 +12,12 @@
     "static/media/telegram.png": "/dogeprime/static/media/telegram.6ea7b05c265797c650e5.png",
     "static/media/medium.png": "/dogeprime/static/media/medium.cb775e205316a302bf07.png",
     "index.html": "/dogeprime/index.html",
-    "main.e5dfcaaf.css.map": "/dogeprime/static/css/main.e5dfcaaf.css.map",
-    "main.13cc5638.js.map": "/dogeprime/static/js/main.13cc5638.js.map",
+    "main.91a92ac4.css.map": "/dogeprime/static/css/main.91a92ac4.css.map",
+    "main.7265a048.js.map": "/dogeprime/static/js/main.7265a048.js.map",
     "488.b07bd04c.chunk.js.map": "/dogeprime/static/js/488.b07bd04c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5dfcaaf.css",
-    "static/js/main.13cc5638.js"
+    "static/css/main.91a92ac4.css",
+    "static/js/main.7265a048.js"
   ]
 }
