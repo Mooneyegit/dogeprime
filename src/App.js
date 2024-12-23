@@ -8,7 +8,8 @@ import Footer from './Component/Footer';
 import Total from './Component/Total';
 import About from './Component/About';
 import Primenomic from './Component/Primenomic';
-import { Download } from './Component/Download';
+
+
 function App() {
   return (
     <div className="App">
@@ -28,7 +29,6 @@ function App() {
       <Total />
       <About />
       <Primenomic />
-      <Download />
       <Footer />
     </motion.div>
     </div>

@@ -33,9 +33,6 @@ const Navbar = () => {
               <li>
               <a href='#about' > About </a>
               </li>
-              <li>
-                <a href="/contact">Doge Jornery</a>
-              </li>
             </ul>
           </div>
         </div>

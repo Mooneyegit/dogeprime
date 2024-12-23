@@ -1,14 +1,15 @@
 import React from 'react'
 import ProgressBar from 'react-bootstrap/ProgressBar';
-import Clip from './Clip';
+import { Download } from './Download';
+
 
 const Total = () => {
   return (
-    <section>
+    <section className='buy-container '>
       <div className='wrapper'>
         <div className='buy-prime-header'>
-          <span className='uc-darkpink-text'>$DOGEPRIME</span>
-          PRESALE
+          <span>$DOGEPRIME</span>
+          <span>PRESALE</span>
         </div>
         <div className='presale-detail-detail'>
           <div className='presale-progress cc-home'>
@@ -22,7 +23,7 @@ const Total = () => {
           </div>
         </div>
        </div>
-       <Clip />
+       <Download />
     </section>
     
   )

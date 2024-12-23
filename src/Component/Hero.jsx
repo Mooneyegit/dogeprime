@@ -28,7 +28,7 @@ const Hero = () => {
         <h2 className='subtitle'>welcome to Dogeprime</h2>
         </div>
         <p className='desc'>The Alpha Dog of MEMECOINS on Cardano!</p>
-        <Button  onClick={()=> downloadFileAtURL(PDF_FILE_URL)} className="hero-btn" variant="danger"><a className='buy-btn-link' href="#buy">whitepaper</a></Button>
+        <Button  onClick={()=> downloadFileAtURL(PDF_FILE_URL)} className="hero-btn" variant="danger">whitepaper</Button>
       </div>
       <div className='right'>
         <img className="hero-img"  src={heroImg} alt='hero' />

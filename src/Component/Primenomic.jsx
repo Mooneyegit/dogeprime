@@ -1,17 +1,10 @@
 import React from 'react';
-import Clip from './Clip';
 
 
 
 const Primenomic = () => {
   return (
-    <div id='dogenomic' className="tokenomics">
-      
-  
-    <Clip />
-    
-  
-
+    <div id='primenomic' className="tokenomics">
       <h1>Primenomics</h1>
       <div className="token-box">
         <h2>Token Symbol</h2>
@@ -26,16 +19,16 @@ const Primenomic = () => {
         <p>1,000,000,000,000</p>
       </div>
       <div className="token-box">
-        <h2>Marketing & Community (65% Locked)</h2>
-        <p>15%</p>
+        <h2>Marketing & Growth</h2>
+        <p>5%: (50,000,000 $DOGEPRIME)</p>
       </div>
       <div className="token-box">
-        <h2>Burned Supply</h2>
-        <p>65%</p>
+        <h2>Team Allocation (Vesdd)</h2>
+        <p>5%(50,000,000 $DOGEPRIME)</p>
       </div>
       <div className="token-box">
-        <h2>Team Wallet (Locked)</h2>
-        <p>10%</p>
+        <h2>Airdrop &Community Rewward</h2>
+        <p>3%(30,000,000 $DOGEPRIME)</p>
       </div> 
 
     </div>
