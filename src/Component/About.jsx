@@ -10,7 +10,7 @@ const About = () => {
           {" "}
           DogePrime is here to lead the meme revolution on Cardano. With its
           loyal community, playful spirit, and cutting-edge tech, DogePrime
-          blends fun and finance seamlessly. We’re not just riding the
+          blends fun. We’re not just riding the
           moon-bound rocket; we’re driving it.{" "}
         </p>{" "}
       </div>

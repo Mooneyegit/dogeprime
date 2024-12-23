@@ -44,12 +44,12 @@ export const Download = () => {
 
     return (
         <>
-         <div class="wrapper">
-	<div class="label">
-	Wallet address
+         <div className="wrapper">
+	<div className="label">
+	Presale address
 	</div>
-	<div class="copy-text">
-		<input type="text" class="text" value="Wallet Address" />
+	<div className="copy-text">
+		<input type="text" className="text" value="addr1qy3shp4u5dr0vvukf2tpc4n3s4dy505" />
 		<button onClick={copy}><FaRegCopy />{copied && 'Copied!'}</button>
 	</div>
 </div>
