@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dogeprime/static/css/main.e5dfcaaf.css",
-    "main.js": "/dogeprime/static/js/main.079424ec.js",
+    "main.js": "/dogeprime/static/js/main.13cc5638.js",
     "static/js/488.b07bd04c.chunk.js": "/dogeprime/static/js/488.b07bd04c.chunk.js",
     "static/media/dogoprimeface.png": "/dogeprime/static/media/dogoprimeface.0bdb672538d37d31380a.png",
     "static/media/banner-bg(3).png": "/dogeprime/static/media/banner-bg(3).cc1273af450504afe755.png",
@@ -12,11 +12,11 @@
     "static/media/medium.png": "/dogeprime/static/media/medium.cb775e205316a302bf07.png",
     "index.html": "/dogeprime/index.html",
     "main.e5dfcaaf.css.map": "/dogeprime/static/css/main.e5dfcaaf.css.map",
-    "main.079424ec.js.map": "/dogeprime/static/js/main.079424ec.js.map",
+    "main.13cc5638.js.map": "/dogeprime/static/js/main.13cc5638.js.map",
     "488.b07bd04c.chunk.js.map": "/dogeprime/static/js/488.b07bd04c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5dfcaaf.css",
-    "static/js/main.079424ec.js"
+    "static/js/main.13cc5638.js"
   ]
 }
