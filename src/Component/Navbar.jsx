@@ -15,6 +15,7 @@ const Navbar = () => {
         <div className="container">
           <div className="logo">
             <img width={'30px'} src={Logo} alt="navlogo" />
+            $DOGEPRIME
           </div>
           <div className="menu-icon" onClick={handleShowNavbar}>
             <Hamburger />
