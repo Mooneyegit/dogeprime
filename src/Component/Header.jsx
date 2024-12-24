@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from './Navbar';
 import heroImage from '../assert/Images/dogoprimeface.png';
 import { Button } from 'react-bootstrap';
 import Grass from '../assert/Images/vecteezy_green-grass-on-grid-background_-removebg-preview.png'
+import Navbar from './Navbar'
 
 function Header() {
 
@@ -20,7 +20,7 @@ function Header() {
       </div>
       <div>
         <Button  className="hero-btn" variant="danger">Presale</Button>
-        <Button  className="hero-btn" variant="danger">Whitepaper</Button>
+        <Button  className="hero-btn" variant="danger"><a href='/Whitepaper'>Whitepaper</a></Button>
       </div>
       <img src={Grass} alt='back-image'/>
     </section>

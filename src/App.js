@@ -1,12 +1,9 @@
 import './App.css';
-import {motion}  from 'framer-motion'
-import Buy from './Component/Buy';
-import SaleCountdown from './Component/SaleConntdown';
-import Footer from './Component/Footer';
-import Total from './Component/Total';
-import About from './Component/About';
-import Primenomic from './Component/Primenomic';
-import Header from './Component/Header';
+import {motion}  from 'framer-motion';
+import {  Route, Routes } from 'react-router-dom';
+import Home from './Component/Home';
+import Layout from './Component/Layout';
+import Whitepaper from './Component/Whitepaper';
 
 
 function App() {
@@ -21,13 +18,14 @@ function App() {
       animate="visible"
       transition={{duration:0.5, delay:0.25}}
       >  
-      <Header />
-      <SaleCountdown />
-      <Buy />
-      <Total />
-      <About />
-      {/* <Primenomic /> */}
-      <Footer />
+      
+      <Routes>
+        <Route path='/' element={<Layout />}>
+        <Route path='/' element={<Home />} />
+        <Route path='/whitepaper' element={<Whitepaper />} />
+        </Route>
+      </Routes>
+      
     </motion.div>
     </div>
   );

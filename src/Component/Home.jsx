@@ -1,9 +1,18 @@
 import React from 'react'
-import Hero from './Hero'
+import Header from './Header'
+import Buy from './Buy'
+import SaleCountdown from './SaleConntdown'
+import About from './About'
+import Footer from './Footer'
+
 const Home = () => {
   return (
     <div>
-      <Hero />
+      <Header />
+      <SaleCountdown />
+      <Buy />
+      <About />
+      <Footer />
     </div>
   )
 }
