@@ -1,9 +1,7 @@
 import './App.css';
 import {motion}  from 'framer-motion';
-import {  Route, Routes } from 'react-router-dom';
 import Home from './Component/Home';
-import Layout from './Component/Layout';
-import Whitepaper from './Component/Whitepaper';
+
 
 
 function App() {
@@ -19,13 +17,7 @@ function App() {
       transition={{duration:0.5, delay:0.25}}
       >  
       
-      <Routes>
-        <Route path='/' element={<Layout />}>
-        <Route path='/' element={<Home />} />
-        <Route path='/whitepaper' element={<Whitepaper />} />
-        </Route>
-      </Routes>
-      
+     <Home />
     </motion.div>
     </div>
   );
