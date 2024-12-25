@@ -6,7 +6,7 @@ const Whitepaper = () => {
   return (
     <>
     <Navbar />
-    <div className="whitepaper-container">
+    <div id="/whitepaper" className="whitepaper-container">
       <h6>Introducing DogePrime</h6>
       <h1>The Alpha Dog of MEMECOINS on Cardano!</h1>
       <div className="whitepaper-content">

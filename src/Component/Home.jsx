@@ -4,13 +4,14 @@ import Buy from './Buy'
 import SaleCountdown from './SaleConntdown'
 import About from './About'
 import Footer from './Footer'
+import Presale from './Presale'
 
 const Home = () => {
   return (
     <div>
       <Header />
       <SaleCountdown />
-      <Buy />
+      <Presale />
       <About />
       <Footer />
     </div>

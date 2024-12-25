@@ -1,6 +1,9 @@
 import './App.css';
 import {motion}  from 'framer-motion';
 import Home from './Component/Home';
+import { Route, Routes } from 'react-router-dom';
+import Whitepaper from './Component/Whitepaper';
+import Presale from './Component/Presale';
 
 
 
@@ -17,7 +20,11 @@ function App() {
       transition={{duration:0.5, delay:0.25}}
       >  
       
-     <Home />
+     <Routes>
+         <Route path='/' element={<Home />} />
+         <Route path='whitepaper' element={<Whitepaper />} />
+         <Route path='presale' element={<Presale />} />
+     </Routes>
     </motion.div>
     </div>
   );
