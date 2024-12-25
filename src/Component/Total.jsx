@@ -14,12 +14,12 @@ const Total = () => {
         <div className='presale-detail-detail'>
           <div className='presale-progress cc-home'>
             <div className='presale-flex'>
-              <div>ADA RAISED</div>
-              <div className='presale-detail-text'>$70,000,</div>
+              <div>PRESALE ALLOCATION</div>
+              <div className='presale-detail-text'>$650,000,000</div>
             </div>
           </div>
           <div className='presale-progress-bar'>
-          <ProgressBar animated now={15} />
+          <ProgressBar animated now={65} />
           </div>
         </div>
        </div>
