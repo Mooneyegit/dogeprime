@@ -15,11 +15,11 @@ function Header() {
       <div>
         <img className='hero-photo' src={heroImage} alt='hero-image' />
       </div>
-      <div>
+      <div className='hero-text-container'>
         <h1 className='hero-text'>Where meme</h1>
         <h1 className='hero-text'>meets Magic</h1>
       </div>
-      <div>
+      <div className='btn-hero'>
         <Button  className="hero-btn" variant="danger"><Link to='/presale'>Presale</Link></Button>
         <Button  className="hero-btn" variant="danger"><Link to='/Whitepaper'>Whitepaper</Link></Button>
       </div>

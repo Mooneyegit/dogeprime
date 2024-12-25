@@ -4,7 +4,7 @@ import aboutImage from '../assert/Images/__Raining_Coins-removebg-preview.png'
 const About = () => {
   return <div id="about" className="about-container" >
     <div className="left">
-      <img height={"50%"}src={aboutImage} alt="about-image"    />
+      <img className='our-story-image' src={aboutImage} alt="about-image"    />
     </div>
     <div className="dogeGFStoryContent right">
       <h1 className="dogeGFStory">Our Story</h1>

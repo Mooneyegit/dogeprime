@@ -85,7 +85,7 @@ class SaleCountdown extends Component {
                             <p>SECONDS</p>
                         </div>
                     </div>
-                    <Button className="try-for-free" data-aos="fade-up">PRE ORDER NOW</Button>
+                    {/* <Button className="try-for-free" data-aos="fade-up">PRE ORDER NOW</Button> */}
                 </section>
             </>
         )

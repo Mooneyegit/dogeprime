@@ -1,5 +1,7 @@
 import React from 'react'
 import Total from './Total';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 
  const Presale = () => {
@@ -70,7 +72,6 @@ import Total from './Total';
 </div>
 </section> */}
     </div>
-
 
 
 
