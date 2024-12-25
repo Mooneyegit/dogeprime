@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dogeprime/static/css/main.49e994ab.css",
+    "main.css": "/dogeprime/static/css/main.aecfac20.css",
     "main.js": "/dogeprime/static/js/main.4ac3b6a2.js",
     "static/media/dogoprimeface.png": "/dogeprime/static/media/dogoprimeface.0bdb672538d37d31380a.png",
     "static/media/vecteezy_green-grass-on-grid-background_-removebg-preview.png": "/dogeprime/static/media/vecteezy_green-grass-on-grid-background_-removebg-preview.eb87ba99ce568dc7dbba.png",
@@ -12,11 +12,11 @@
     "static/media/telegram.png": "/dogeprime/static/media/telegram.6ea7b05c265797c650e5.png",
     "static/media/medium.png": "/dogeprime/static/media/medium.cb775e205316a302bf07.png",
     "index.html": "/dogeprime/index.html",
-    "main.49e994ab.css.map": "/dogeprime/static/css/main.49e994ab.css.map",
+    "main.aecfac20.css.map": "/dogeprime/static/css/main.aecfac20.css.map",
     "main.4ac3b6a2.js.map": "/dogeprime/static/js/main.4ac3b6a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.49e994ab.css",
+    "static/css/main.aecfac20.css",
     "static/js/main.4ac3b6a2.js"
   ]
 }
