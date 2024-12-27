@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/dogeprime/static/css/main.aecfac20.css",
-    "main.js": "/dogeprime/static/js/main.4ac3b6a2.js",
+    "main.css": "/dogeprime/static/css/main.6ef65377.css",
+    "main.js": "/dogeprime/static/js/main.e238f3fa.js",
     "static/media/dogoprimeface.png": "/dogeprime/static/media/dogoprimeface.0bdb672538d37d31380a.png",
     "static/media/vecteezy_green-grass-on-grid-background_-removebg-preview.png": "/dogeprime/static/media/vecteezy_green-grass-on-grid-background_-removebg-preview.eb87ba99ce568dc7dbba.png",
     "static/media/banner-bg(3).png": "/dogeprime/static/media/banner-bg(3).cc1273af450504afe755.png",
-    "static/media/footer-bg.png": "/dogeprime/static/media/footer-bg.7bd67c0f73571d0acc02.png",
-    "static/media/__Raining_Coins-removebg-preview.png": "/dogeprime/static/media/__Raining_Coins-removebg-preview.dd87442c652c7b3da0ae.png",
+    "static/media/release1.png": "/dogeprime/static/media/release1.0c482aba7d6da2c3e9bb.png",
+    "static/media/release2.png": "/dogeprime/static/media/release2.d54e21ff9ecf711580c1.png",
+    "static/media/super1.png": "/dogeprime/static/media/super1.1fbdfb3ac7255099ffbb.png",
     "static/media/twitter.png": "/dogeprime/static/media/twitter.7e40f617aaa8eca864bb.png",
     "static/media/kid.ttf": "/dogeprime/static/media/kid.f8324fdad6eda13d12aa.ttf",
     "static/media/telegram.png": "/dogeprime/static/media/telegram.6ea7b05c265797c650e5.png",
     "static/media/medium.png": "/dogeprime/static/media/medium.cb775e205316a302bf07.png",
     "index.html": "/dogeprime/index.html",
-    "main.aecfac20.css.map": "/dogeprime/static/css/main.aecfac20.css.map",
-    "main.4ac3b6a2.js.map": "/dogeprime/static/js/main.4ac3b6a2.js.map"
+    "main.6ef65377.css.map": "/dogeprime/static/css/main.6ef65377.css.map",
+    "main.e238f3fa.js.map": "/dogeprime/static/js/main.e238f3fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.aecfac20.css",
-    "static/js/main.4ac3b6a2.js"
+    "static/css/main.6ef65377.css",
+    "static/js/main.e238f3fa.js"
   ]
 }
