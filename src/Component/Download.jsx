@@ -51,7 +51,7 @@ export const Download = () => {
 	</div>
 	<div className="copy-text">
 		<input type="text" className="text" value="addr1qy3shp4u5dr0vvukf2tpc4n3s4dy505" />
-		<button onClick={copy}><FaRegCopy /> click to copy{copied && <IoCheckmarkDoneSharp />}</button>
+		<button onClick={copy}>click to copy{copied && <IoCheckmarkDoneSharp />}</button>
 	</div>
 </div>
         </>

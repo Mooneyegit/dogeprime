@@ -9,6 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:radial-gradient(#F0D896 2%, #ffffff 100%);
 }
 
 code {

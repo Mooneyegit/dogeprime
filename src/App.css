@@ -8,6 +8,71 @@
 .App {
   text-align: center;
   overflow: hidden;
+ 
+};
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+button.learn-more {
+  padding: 1.25em 2em;
+  border: 2px solid #b18597;
+  border-radius: 0.75em;
+  font-weight: 700;
+  color: #382b22;
+  text-transform: uppercase;
+  background: #fff0f0;
+  transform-style: preserve-3d;
+  transition: .15s cubic-bezier(0, 0, .6, 1);
+}
+
+button.learn-more::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  background: #f9c4d2;
+  box-shadow: 0 0 0 2px #520525, 0 .625em 0 0 #ffe3e2;
+  transform: translate3d(0, .75em, -1em);
+  transition: .15s cubic-bezier(0, 0, .6, 1);
+}
+
+button.learn-more:hover {
+  background: #FD2000;
+  transform: translate(0, .25em);
+}
+
+button.learn-more:hover::before {
+  box-shadow: 0 0 0 2px #b18597, 0 .5em 0 0 #ffe3e2;
+  transform: translate3d(0, .5em, -1em);
+}
+
+button.learn-more:active {
+  background: #ffe9e9;
+  transform: translate(0, .75em);
+}
+
+button.learn-more:active::before {
+  box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+  transform: translate3d(0, 0, -1em);
+}
+.btn-hero{
+  display: inline-block;
+  gap: 60px;
+  align-items: flex-end;
 }
 
 .App-logo {
@@ -54,7 +119,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(0deg, #f0d896 2%, #ffffff 100%);
+  
 }
 .hero-text {
   display: flex;
@@ -212,7 +277,6 @@ a:hover {
     justify-content: center;
     margin:  auto;
     margin: -5rem auto;
-    height: 80vh;
   }
   .left {
     flex: 1;
@@ -248,6 +312,8 @@ a:hover {
     margin-top: 2rem;
   }
 }
+
+
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
@@ -534,7 +600,8 @@ button:hover {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url("../src//assert/Images/footer-bg.png");
+  /* background-image: url("../src//assert/Images/footer-bg.png"); */
+  background: radial-gradient(#F0D896 2%, #ffffff 100%);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -801,7 +868,7 @@ button:hover {
 }
 
 
-/* .wrapper {
+ /* .wrapper {
   border: 3px solid #da4ea2;
   background-color: #fff;
   border-radius: 15px 50px;
@@ -809,7 +876,7 @@ button:hover {
   margin: 40px auto;
   padding: 30px 50px;
   background-image: linear-gradient(0deg, #f0d896 2%, #ffffff 100%);
-} */
+}  */
 /*
 ol {
   margin: 0 0 1em 0;

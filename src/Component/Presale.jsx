@@ -6,7 +6,7 @@ import Footer from './Footer';
 
  const Presale = () => {
   return (
-    <>
+    <div className='#presale'>
     <Total />
     <section className="about-nft">
                 <div className="nft-container">
@@ -75,7 +75,7 @@ import Footer from './Footer';
 
 
 
-    </>
+    </div>
   )
 }
 

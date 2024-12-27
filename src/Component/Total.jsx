@@ -19,7 +19,7 @@ const Total = () => {
             </div>
           </div>
           <div className='presale-progress-bar'>
-          <ProgressBar animated now={65} />
+          <ProgressBar animated now={0} />
           </div>
         </div>
        </div>

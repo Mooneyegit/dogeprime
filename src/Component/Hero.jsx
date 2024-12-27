@@ -1,39 +1,31 @@
-import React from 'react'
-// import { ReactTyped } from "react-typed";
-import { Button } from 'react-bootstrap'
-import heroImg from '../assert/Images/dogoprimeface.png'
-import line from '../assert/Images/line.png'
+import './hero.scss'
+import home from '../assert/Images/dogoprimeface.png'
 
-const PDF_FILE_URL = 'http://localhost:3000/dogeprime.pdf'
 const Hero = () => {
-  const downloadFileAtURL= (url)=>{
-    fetch(url).then(response=>response.blob()).then( blob=>{
-      const blobURL = window.URL.createObjectURL(new Blob([blob]))
-      const fileName = url.split('/').pop()
-      const aTag = document.createElement('a')
-      aTag.href = blobURL 
-      aTag.setAttribute('download',fileName)
-      document.body.appendChild(aTag)
-      aTag.click();
-      aTag.remove();
-    })
-   
-  }
   return (
-    <div className='hero-container'>
-      <div className='left'>
-        <h1 className='title'>$Dogeprime </h1>
-        <div className='whatwedo'>
-        <img className='line' src={line} alt='line' />
-        <h2 className='subtitle'>welcome to Dogeprime</h2>
+    <div className="home">
+      <div className="container">
+        <div className="content">
+          <p className="sub-title">Launching Soon</p>
+          <h1 className="title">An NFT like no other</h1>
+          <p className="description">
+            Don't miss out on the release of our new NFT. Sign up below to
+            recieve updates when we go live.
+          </p>
+          <button>Sign Up</button>
         </div>
-        <p className='desc'>The Alpha Dog of MEMECOINS on Cardano!</p>
-        <Button  onClick={()=> downloadFileAtURL(PDF_FILE_URL)} className="hero-btn" variant="danger">whitepaper</Button>
-      </div>
-      <div className='right'>
-        <img className="hero-img"  src={heroImg} alt='hero' />
+        <div className="image-container">
+          <div className="image">
+            <img src={home} alt="home image" />
+          </div>
+          <div className="ellipse-container">
+            <div className="ellipse pink"></div>
+            <div className="ellipse orange"></div>
+          </div>
+        </div>
       </div>
     </div>
+   
   )
 }
  
