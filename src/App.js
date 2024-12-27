@@ -19,12 +19,7 @@ function App() {
       animate="visible"
       transition={{duration:0.5, delay:0.25}}
       >  
-    
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/sale" element={<Sales />} />
-      <Route path="/Whitepaper" element={<Whitepaper/>} />
-    </Routes>
+    <Home />
     </motion.div>
     </div>
   );
