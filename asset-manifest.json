@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/dogeprime/static/css/main.3d1639b8.css",
-    "main.js": "/dogeprime/static/js/main.5d60a2d4.js",
+    "main.css": "/dogeprime/static/css/main.c15c4561.css",
+    "main.js": "/dogeprime/static/js/main.0f7f12f9.js",
     "static/media/dogoprimeface.png": "/dogeprime/static/media/dogoprimeface.0bdb672538d37d31380a.png",
     "static/media/banner-bg(2).png": "/dogeprime/static/media/banner-bg(2).e180fc6c2432e50f4d5f.png",
     "static/media/vecteezy_green-grass-on-grid-background_-removebg-preview.png": "/dogeprime/static/media/vecteezy_green-grass-on-grid-background_-removebg-preview.eb87ba99ce568dc7dbba.png",
     "static/media/banner-bg(3).png": "/dogeprime/static/media/banner-bg(3).cc1273af450504afe755.png",
-    "static/media/__Raining_Coins-removebg-preview.png": "/dogeprime/static/media/__Raining_Coins-removebg-preview.dd87442c652c7b3da0ae.png",
     "static/media/twitter.png": "/dogeprime/static/media/twitter.7e40f617aaa8eca864bb.png",
     "static/media/kid.ttf": "/dogeprime/static/media/kid.f8324fdad6eda13d12aa.ttf",
     "static/media/telegram.png": "/dogeprime/static/media/telegram.6ea7b05c265797c650e5.png",
     "static/media/medium.png": "/dogeprime/static/media/medium.cb775e205316a302bf07.png",
     "index.html": "/dogeprime/index.html",
-    "main.3d1639b8.css.map": "/dogeprime/static/css/main.3d1639b8.css.map",
-    "main.5d60a2d4.js.map": "/dogeprime/static/js/main.5d60a2d4.js.map"
+    "main.c15c4561.css.map": "/dogeprime/static/css/main.c15c4561.css.map",
+    "main.0f7f12f9.js.map": "/dogeprime/static/js/main.0f7f12f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d1639b8.css",
-    "static/js/main.5d60a2d4.js"
+    "static/css/main.c15c4561.css",
+    "static/js/main.0f7f12f9.js"
   ]
 }
