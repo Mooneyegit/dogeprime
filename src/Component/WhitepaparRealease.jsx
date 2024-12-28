@@ -1,6 +1,6 @@
 import './Realease.scss'
 // import { BsArrowRight } from "react-icons/bs";
-import release1 from "../assert/Images/__Raining_Coins-removebg-preview.png";
+import release1 from "../assert/Images/dogoprimeface.png";
 import release2 from "../assert/Images/banner-bg(2).png";
 import Card from "./Card";
 const WhitepaparRealease = () => {

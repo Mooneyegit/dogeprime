@@ -17,8 +17,8 @@ const About = () => {
 
             <p>Our mission is to create a safe space where Doge and Girlfriend enthusiasts can come together to share their love for their favorite things. We want to create a community that is inclusive, welcoming, and supportive, where everyone can feel comfortable being themselves.</p>
             <p>We are committed to building a community that is built on trust, respect, and mutual support. We believe that by working together, we can achieve great things and create a better world for everyone.</p>
-
-            <img src={aboutImg} class="signature" />
+{/* 
+            <img src={aboutImg} class="signature" /> */}
 
             <div class="buttons">
 
