@@ -7,11 +7,11 @@ const About = () => {
 
     <div class="about">
 
-        <img src={aboutImg} class="about_img" />
+        <image src={aboutImg} class="about_img" />
 
         <div class="about_text">
 
-            <h1>About Me</h1>
+            <h1>About DOGE</h1>
 
             <p>Dogeprime is a community-driven project that aims to bring the best of both worlds: the Doge community and the Girlfriend community. We believe that the two communities have a lot in common, and we want to bring them together to create a new, stronger community that can achieve great things.</p>
 

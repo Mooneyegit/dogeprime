@@ -1,7 +1,7 @@
 import './Realease.scss'
-import { BsArrowRight } from "react-icons/bs";
-import release1 from "../assert/Images/release1.png";
-import release2 from "../assert/Images/release2.png";
+// import { BsArrowRight } from "react-icons/bs";
+import release1 from "../assert/Images/__Raining_Coins-removebg-preview.png";
+import release2 from "../assert/Images/banner-bg(2).png";
 import Card from "./Card";
 const WhitepaparRealease = () => {
   return (
@@ -11,16 +11,15 @@ const WhitepaparRealease = () => {
         <div className="content">
           <h2 className="title">What’s DogePrime?</h2>
           <p className="description">
-          DogePrime isn’t just a token; it’s a movement, a vibe, and the next-gen memecoin experience. Inspired by the unstoppable Doge spirit, DogePrime is here to bring laughs, decentralization, and a community-first approach to the Cardano ecosystem. If you’re into memes, innovation, and unstoppable Doge energy, this is your pack.<a href="#">OpenSea</a>
+          DogePrime isn’t just a token; it’s a movement, a vibe, and the next-gen memecoin experience. Inspired by the unstoppable Doge spirit, DogePrime is here to bring laughs, decentralization, and a community-first approach to the Cardano ecosystem. If you’re into memes, innovation, and unstoppable Doge energy, this is your pack.
           </p>
           <p className="description">
-            There will be the only four of these NFTs we ever make, so be sure
-            not to miss out!
+            
           </p>
-          <p className="description">50% of proceeds go to charity.</p>
-          <a href="#" className="link">
+          {/* <p className="description">50% of proceeds go to charity.</p> */}
+          {/* <a href="#" className="link">
             Check them out <BsArrowRight />
-          </a>
+          </a> */}
         </div>
         <div className="image">
           <img src={release1} alt="release" />
@@ -31,27 +30,24 @@ const WhitepaparRealease = () => {
         <div className="card-container">
           <Card
             image={release2}
-            series="Gloop Series"
-            title="Purple Man"
-            price={3.95}
-            tag="1094"
-            time={2}
+            series="DOGEPRIME Series"
+            // title="DOGE Man"
           />
           <div className="ellipse orange"></div>
         </div>
         <div className="content">
           <h2 className="title">Our Vision</h2>
           <p className="description">
-          DogePrime is here to lead the meme revolution on Cardano. With its loyal community, playful spirit, and cutting-edge tech, DogePrime blends fun and finance seamlessly. We’re not just riding the moon-bound rocket; we’re driving it. <a href="#">OpenSea</a>
+          DogePrime is here to lead the meme revolution on Cardano. With its loyal community, playful spirit, and cutting-edge tech, DogePrime blends fun  seamlessly. We’re not just riding the moon-bound rocket; we’re driving it. 
           </p>
           <p className="description">
-            There will be the only four of these NFTs we ever make, so be sure
-            not to miss out!
-          </p>
-          <p className="description">50% of proceeds go to charity.</p>
-          <a href="#" className="link">
+          DogePrime is all about fun, memes, and community. It’s not financial advice or an investment
+tool. Remember, it’s built for joy, so invest wisely and join for the laughs, not just the gains.
+Dogeprime will excel and produce more.          </p>
+          {/* <p className="description">50% of proceeds go to charity.</p> */}
+          {/* <a href="#" className="link">
             Check them out <BsArrowRight />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

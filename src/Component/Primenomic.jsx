@@ -10,7 +10,7 @@ const Primenomic = () => {
         <ul>
             <li>
                 <h3 class="heading">Presale</h3>
-                <p>5% (650,000,000 $DOGEPRIME) Allocated for early supporters during the presale phase. Release Schedule: 30% released at launch. 70% vested and gradually released over 7 months.</p>
+                <p>65% (650,000,000 $DOGEPRIME) Allocated for early supporters during the presale phase. Release Schedule: 30% released at launch. 70% vested and gradually released over 7 months.</p>
                 {/* <a href="#">Read More </a> */}
                 <span class="date">Prompt</span>
                 <span class="circle"></span>
@@ -29,6 +29,7 @@ const Primenomic = () => {
                 <span class="date">Prompt</span>
                 <span class="circle"></span>
             </li>
+            <br />
             <li>
                 <h3 class="heading">Team Allocation (Vested)</h3>
                 <p>5% (50,000,000 $DOGEPRIME) Locked and gradually released over 24months to ensure the team’s long-term commitment and alignment with the project’s success.</p>

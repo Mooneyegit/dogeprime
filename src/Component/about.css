@@ -99,6 +99,7 @@
                 margin-bottom: 13px;
 
                 opacity: .8;
+                color: #a51a1a;
 
             }
 
@@ -194,7 +195,7 @@
 
                 height: 2px;
 
-                background-color: #f3c36f;
+                /* background-color: #f3c36f; */
 
                 border-radius: 10px;
 
@@ -353,5 +354,46 @@
                     width: 65%;
 
                 }
+       
+
+            }
+            @media screen and (min-width: 280px) and (max-width: 1080px) {
+                .about_section {
+                    color: #a51a1a;
+                    font-family: Poppins;
+                }
+                .about_text p {
+
+    
+                    opacity: .8;
+                    color: #a51a1a;
+    
+                }
+                
+            .about {
+
+                width: 100%;
+
+                height: auto;
+
+                display: flex;
+
+                align-items: center;
+
+                justify-content: space-between;
+
+                margin-bottom: 80px;
+
+            }
+
+            .about .about_img {
+
+                width: 100px;
+
+                height: auto;
+
+
+            }
+
 
             }

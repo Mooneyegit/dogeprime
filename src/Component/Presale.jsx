@@ -1,7 +1,7 @@
 import React from 'react'
 import Total from './Total';
-import Navbar from './Navbar';
-import Footer from './Footer';
+// import Navbar from './Navbar';
+// import Footer from './Footer';
 
 
  const Presale = () => {
@@ -47,7 +47,7 @@ import Footer from './Footer';
                                 </div>
 
                                 <h3 className="about-card-title uc">Visit Dogeprime.com </h3>
-                                <p className="about-card-text">Visit Dogeprime.com website and click buy $DOGOPRIME, then copy the presale address shown and send $ADA. To avoid hacks and phishing we will never tell you to connect your wallet</p>
+                                <p className="about-card-text">Visit Dogeprime.org website and click buy $DOGEPRIME, then copy the presale address shown above  and send $ADA. To avoid hacks and phishing we will never tell you to connect your wallet</p>
                             </div>
                         </li>
                     </ol>

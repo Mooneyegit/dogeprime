@@ -55,7 +55,7 @@ class SaleCountdown extends Component {
         return (
             <>
                 <section className="countdown-section content">
-                    <h1>$DOGOPRIME PRESALE:</h1>
+                    <h1>$DOGEPRIME PRESALE:</h1>
                     <div className="countdown">
                         <div className="label" data-aos="fade-up">
                             <div className="countdown-format">

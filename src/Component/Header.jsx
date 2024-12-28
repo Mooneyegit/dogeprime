@@ -1,9 +1,9 @@
 import React from 'react';
 import heroImage from '../assert/Images/dogoprimeface.png';
-import { Button } from 'react-bootstrap';
+
 import Grass from '../assert/Images/vecteezy_green-grass-on-grid-background_-removebg-preview.png'
 import Navbar from './Navbar'
-import { Link } from "react-router";
+
 import Curved from './Curved';
 
 function Header() {

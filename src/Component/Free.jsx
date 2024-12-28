@@ -1,8 +1,8 @@
 import './Free.scss'
 import Card from "./Card";
 import icon from "../assert/Images/icon.png";
-import super1 from "../assert/Images/super1.png";
-import release2 from "../assert/Images/release1.png";
+import super1 from "../assert/Images/dogoprimeface.png";
+import release2 from "../assert/Images/dogoprimeface.png";
 
 export default function Free() {
   return (
@@ -26,21 +26,15 @@ export default function Free() {
         <div className="card1">
           <Card
             image={super1}
-            series="Gloop Series"
-            title="Purple Man"
-            price={2.99}
-            tag={12983}
-            time={1}
+            // series="DOGE Magic"
+            // title="MEME FUN"
           />
         </div>
         <div className="card2">
           <Card
             image={release2}
-            series="Gloop Series"
-            title="Purple Man"
-            price={3.95}
-            tag="1094"
-            time={2}
+            // series="DOGE "
+            // title="DOGE PRIMEMAN"
           />
         </div>
       </div>
